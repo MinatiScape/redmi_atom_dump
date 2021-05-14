@@ -1,0 +1,6 @@
+# vpuservice .rc configure
+
+service vpuservice /system/bin/vpuservice
+    class main
+    user system
+    group system camera
